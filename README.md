@@ -10,7 +10,7 @@ learn:
 - links
 
 code along or separate to imitate:
-![html workshop example](https://pasteboard.co/dhNS98XC85KA.png)
+https://pasteboard.co/dhNS98XC85KA.png
 
 CSS WORKSHOP
 learn: 
@@ -22,16 +22,16 @@ learn:
 - ids vs classes
 
 code along or separate to imitate:
-![css workshop example1](https://pasteboard.co/dhNS98XC85KA.png)
-![css workshop example2](https://pasteboard.co/0S73MxmtVDMD.png)
+https://pasteboard.co/dhNS98XC85KA.png
+https://pasteboard.co/0S73MxmtVDMD.png
 
 FLEXBOX WORKSHOP
 learn:
 - flexbox
 
 code along or separate to imitate:
-![flexbox workshop example1](https://pasteboard.co/ve23DG10syBT.png)
-![flexbox workshop example2](https://pasteboard.co/4I2JTdxrBQQU.png)
-![flexbox workshop example3](https://pasteboard.co/ygX629q7zswI.png)
+https://pasteboard.co/ve23DG10syBT.png
+https://pasteboard.co/4I2JTdxrBQQU.png
+https://pasteboard.co/ygX629q7zswI.png
 
   
