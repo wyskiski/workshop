@@ -7,31 +7,46 @@
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <h1>NAME</h1>
-        <ul>
-            <li>about</li>
-            <li>projects</li>
-            <li>contact</li>
-        </ul>
+    <div id="hero">
+        <div id="header">
+            <h1>NAME</h1>
+            <ul>
+                <li><a href="#hero-content">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+        <div id="hero-content">
+            <h1>HERO TEXT</h1>
+            <p>hero subtext</p>
+            <img id="hero-image" src="../assets/hero-cat.png" alt="hero_image"/>
+        </div>
     </div>
 
-    <div class="hero">
-        <h1>HERO TEXT</h1>
-        <p>hero subtext</p>
-        <img alt="hero_image"/>
-    </div>
-
-    <div class="projects">
+    <div id="projects">
+        <h1>PROJECTS</h1>
         <div class="card">
-            <img alt="project_image"/>
+            <img id="project-image" src="../assets/project-website.png" alt="project_image"/>
             <h2>PROJECT TITLE</h2>
+            <p>project description</p>
+            <a>more info</a>
+        </div>
+        <div class="card">
+            <img id="project-image" src="../assets/project-snake.png" alt="project_image"/>
+            <h2>PROJECT 2 TITLE</h2>
+            <p>project description</p>
+            <a>more info</a>
+        </div>
+        <div class="card">
+            <img id="project-image" src="../assets/project-calculator.png" alt="project_image"/>
+            <h2>PROJECT 3 TITLE</h2>
             <p>project description</p>
             <a>more info</a>
         </div>
     </div>
 
-    <div class="contact">
+    <div id="contact">
         <h1>CONTACT</h1>
         <p>email</p>
         <p>socials</p>

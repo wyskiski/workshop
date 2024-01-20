@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+#hero, #contact {
+    background-color: lightblue;
+}
+
+#hero-content, #projects, #contact {
+    padding: 50px;
+}
+
+#hero-image {
+    border-radius: 300px;
+    width: 15%;
+    height: auto;
+}
+
+#project-image {
+    border-radius: 50px;
+    width: 25%;
+    height: auto;
+}
