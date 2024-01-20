@@ -55,3 +55,8 @@ a {
     width: 25%;
     height: auto;
 }
+
+.card {
+    background-color: lightgray;
+    padding: 10px;
+}

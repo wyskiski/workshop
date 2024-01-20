@@ -1,0 +1,118 @@
+/* css workshop */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+#hero, #contact {
+    background-color: lightblue;
+}
+
+#hero-content, #projects, #contact {
+    padding: 50px;
+}
+
+#hero-image {
+    border-radius: 300px;
+    width: 80%;
+    height: auto;
+}
+
+#hero-text {
+    font-size: 80px;
+}
+
+#hero-subtext {
+    font-size: 20px;
+}
+
+button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#project-image {
+    border-radius: 25px;
+    width: 75%;
+    height: auto;
+}
+
+/* flexbox workshop */
+#header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+#hero-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title {
+    margin-bottom: 20px;
+}
+
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
