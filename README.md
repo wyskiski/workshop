@@ -4,10 +4,11 @@ HTML WORKSHOP
 learn:
 - divs
 - lists
-- text
+- text (h1-6, p)
 - buttons
 - images
 - links
+- html file structure (header/body/meta)
 
 code along or separate to imitate:
 https://pasteboard.co/dhNS98XC85KA.png
